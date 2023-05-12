@@ -13,4 +13,84 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  background-color: #118a7e;
+  color: #fff;
 }
+
+.container h1 {
+  margin-bottom: 24px;
+}
+
+.form-container {
+  padding: 24px;
+  background-color: #93e4c1;
+  border-radius: 8px;
+}
+
+.form-container h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+login-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* .login-form label,
+.login-form input[type='text'],
+.login-form input[type='password'],
+.login-form button {
+  display: block;
+  margin-bottom: 10px;
+} */
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+.form-container input:focus, .form-control input:valid{
+  outline: 0;
+}
+
+.login-form input[type='text'],
+.login-form input[type='password'] {
+  width: 100%;
+  padding: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 8px;
+  background-color: #1f6f78;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.text {
+  color: #fff;
+}
+
+.text span {
+  color: #1f6f78;
+  
