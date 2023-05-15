@@ -67,7 +67,8 @@ login-form {
   font-size: 18px;
 }
 
-.form-container input:focus, .form-control input:valid{
+.form-container input:focus,
+.form-control input:valid {
   outline: 0;
 }
 
@@ -77,7 +78,7 @@ login-form {
   padding: 5px;
 }
 
-.login-form button {
+.btn {
   width: 100%;
   padding: 8px;
   background-color: #1f6f78;
@@ -85,12 +86,27 @@ login-form {
   border: none;
   border-radius: 8px;
   margin: 10px 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.95);
 }
 
 .text {
+  margin-top: 24px;
   color: #fff;
 }
 
 .text span {
   color: #1f6f78;
-  
+}
+
+p a {
+  text-decoration: none;
+}
